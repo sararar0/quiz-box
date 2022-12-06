@@ -148,10 +148,6 @@ p {
   background: #741BBA
 }
 
-.button .button__light--active {
-  color: #8F00FF;
-}
-
 
 .news {
   margin-bottom: 126px;
@@ -228,25 +224,20 @@ p {
   line-height: 1.5;
 }
 
-.button__light {
+.button__light--color {
   color: #8F00FF;
   background: none;
   border: 1px solid #8F00FF;
   padding: 17px 30px;
 }
 
-.button__light--color--ginger {
-  color: #ffffff;
-  background: #8F00FF;
-  padding: 17px 30px;
-}
 
-.button__light:hover {
+.button__light--color:hover {
   color: #ffffff;
   background: #8F00FF;
 }
 
-.button__light:active {
+.button__light--color:active {
   color: #ffffff;
   background: #741BBA;
 }
@@ -385,7 +376,7 @@ p {
   line-height: 1.64;
 }
 
-.about__desc .button__light {
+.button__light {
   color: #fff;
   border: 1px solid #fff;
   padding: 17px 39px;
@@ -452,4 +443,23 @@ p {
 
 .socials__item--icon--inst .socials__link {
   background:  url(".//img/inst.png");
+}
+
+
+
+
+.socials__item--icon--telegram:hover .socials__link {
+  background:  url(".//img/telegram-hover.png");
+}
+
+.socials__item--icon--vk:hover .socials__link {
+  background:  url(".//img/vk-hover.png");
+}
+
+.socials__item--icon--fb:hover .socials__link {
+  background:  url(".//img/fb-hover.png");
+}
+
+.socials__item--icon--inst:hover .socials__link {
+  background:  url(".//img/inst-hover.png");
 }
