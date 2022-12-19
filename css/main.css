@@ -118,6 +118,7 @@ p {
 
 .menu__link:hover {
   color: #8F00FF;
+  transition: .3s;
 }
 
 .contacts {
@@ -145,6 +146,7 @@ p {
 .contacts__info:hover {
   color: #ffffff;
   text-decoration: underline;
+  transition: .3s;
 }
 
 .hero__content {
@@ -181,7 +183,8 @@ p {
 }
 
 .button:hover {
-  background: #741BBA
+  background: #741BBA;
+  transition: .3s;
 }
 
 
@@ -286,6 +289,7 @@ p {
 .button__light--color:hover {
   color: #ffffff;
   background: #8F00FF;
+  transition: .3s;
 }
 
 .button__light--color:active {
@@ -375,6 +379,7 @@ p {
 
 .pager--theme--light .pager___link:hover{
   color: #fff;
+  transition: .3s;
 }
 
 .pager__display {
@@ -409,6 +414,7 @@ p {
 .pager___link:hover {
   background: #8F00FF;
   border-radius: 50%;
+  transition: .3s;
 }
 
 .pager___link:active {
@@ -639,6 +645,7 @@ p {
 .game:hover .game__button {
   background: #8F00FF;
   color: #fff;
+  transition: .3s;
 }
 
 .game__title {
@@ -692,14 +699,72 @@ margin-bottom: 35px;
   text-decoration: none;
   display: flex;
   width: 225px;
-  height: 125px;
+  height: 125px; 
   align-items: center;
   justify-content: center;
   filter: grayscale(100%);
 }
 
+.partners__link:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('../icons/sprites.png');
+}
+
+.bg-pobeda:after {
+  width: 228px;
+  height: 49px;
+  background-position: -472px -260px;
+}
+.bg-s7:after {
+  width: 179px;
+  height: 57px;
+  background-position: -744px -379px;
+}
+
+.bg-quizplz:after {
+  width: 86px; 
+  height: 86px;
+  background-position: -1208px -455px;
+}
+
+.bg-ligaquiz:after {
+  width: 134px; 
+  height: 85px;
+  background-position: -10px -523px;
+}
+
+.bg-kvestroom:after {
+  width: 205px; 
+  height: 56px;
+  background-position: -15px -89px;
+}
+
+.bg-pegasus:after {
+  width: 181px; 
+  height: 35px;
+  background-position: -255px -260px;
+}
+
+.bg-airbaltic:after {
+  width: 187px; 
+  height: 45px;
+  background-position: -9px 55px;
+}
+
+.bg-pegas:after {
+  width: 252px; 
+  height: 49px;
+  background-position: -10px -10px;
+}
+
 .partners__link:hover {
   filter: grayscale(0);
+  transition: .3s;
 }
 
 .inner-footer__container {
@@ -848,11 +913,6 @@ margin-bottom: 35px;
   color: #666666;
 }
 
-.form__input:active {
-  border: 2px solid #8F00FF;
-  border-color: #8F00FF;
-}
-
 .form__input:last-child {
   margin-right: 0;
 }
@@ -889,6 +949,7 @@ margin-bottom: 35px;
 
 .controls__checkbox:checked ~ .controls__tag {
   background: #B9EAE4;
+  transition: .3s;
 }
 
 .controls__checkbox {
@@ -902,6 +963,7 @@ margin-bottom: 35px;
 
 .button--color--black:hover {
   background: #8F00FF;
+  transition: .3s;
 }
 
 .form__button {
@@ -1015,11 +1077,13 @@ margin-bottom: 35px;
 .dropdown:hover .dropdown__menu {
   left: 0;
   opacity: 0.8;
+  transition: .3s;
 }
 
 .dropdown:hover .triangle {
   left: 0;
   opacity: 1;
+  transition: .3s;
 }
 
 
@@ -1035,11 +1099,13 @@ margin-bottom: 35px;
 
 .dropdown:hover .dropdown__menu {
   display: block;
+  transition: .3s;
 }
 
 .dropdown:hover .contacts__info {
   color: #ffffff;
   text-decoration: underline;
+  transition: .3s;
 }
 
 .dropdown__item:first-child {
